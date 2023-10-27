@@ -1,0 +1,42 @@
+body {
+   margin: 0;
+   padding: 0;
+}
+
+.bg {
+  background-color: white;
+}
+.ct{
+position: absolute;
+margin: 0;
+padding: 0;
+z-index: -3;
+}
+
+#quote-box {
+  margin: auto;
+  padding: auto;
+  text-align: center;
+  align-items:center !important;
+  background-color: blue !important;
+  }
+
+#text {
+  font-size: 4rem;
+  border: 2px;
+  border-radius: 4;
+}
+
+#author {
+  font-size: 3rem;
+  text-align: right;
+  position: relative;
+  border: 2px solid black;
+  border-radius: 2px;
+}
+
+#buttons {
+  position: sticky;
+  padding: 4vw;
+  margin: 4vw;
+}
